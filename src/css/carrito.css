@@ -1,0 +1,140 @@
+input {
+  color: black;
+}
+#carrito {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 77px;
+  right: 0;
+  min-width: 500px;
+  width: 30%;
+  height: calc(100vh - 84px);
+  margin-right: 5px;
+  background-color: gray;
+  transition: transform 250ms ease-out;
+  padding: 0 25px;
+  transform: translateX(calc(100% + 5px));
+}
+#carrito .cart_products {
+  overflow-y: scroll;
+  flex: 1;
+  padding-bottom: 80px;
+}
+#carrito .cart_products::-webkit-scrollbar {
+  display: none;
+}
+#carrito .cart_item {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 8px;
+  gap: 16px;
+  padding: 16px;
+  justify-content: space-evenly;
+  position: relative;
+}
+#carrito .item_image {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  aspect-ratio: 1/1;
+}
+#carrito .item_image img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+#carrito .item_data {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 8px;
+}
+.item_data .item_data-top {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.item_data .item_data-name {
+  flex: 1;
+}
+.item_data .item_data-name .name {
+  font-weight: bold;
+}
+.item_data .item_data-name .price {
+  color: rgba(16, 16, 16, 0.5);
+}
+.item_data .item_data-delete button {
+  display: grid;
+  place-items: center;
+  background: none;
+  border: none;
+  outline: none;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.item_data-delete button:hover svg {
+  color: red;
+}
+.item_data-delete svg {
+  width: 80%;
+  height: 80%;
+  transition: color 100ms ease-out;
+}
+.item_data .item_data-bottom {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+.item_data-bottom .item_total {
+  margin-left: auto;
+  font-weight: bold;
+}
+.item_data-quantity {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.item_data-quantity input,
+.item_data-quantity button {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  padding: 4px;
+}
+.item_data-quantity input {
+  width: 30px;
+  margin: 0 10px;
+}
+.item_data-quantity button svg {
+  width: 100%;
+  height: 100%;
+}
+.item_data-quantity button {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 1);
+}
+.carrito_bottom .carrito_bottom-btn {
+  position: absolute;
+  display: block;
+  text-align: center;
+  width: calc(100% - 50px);
+  padding: 25px 0;
+  left: 25px;
+  bottom: 25px;
+  background-color: red;
+}

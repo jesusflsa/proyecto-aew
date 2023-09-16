@@ -1,0 +1,36 @@
+/*  Carrusel Promociones  */
+#carrousel_container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#carrousel-wrapper {
+  display: flex;
+  transform: translateX(-100%);
+}
+#carrousel-wrapper img {
+  width: 100%;
+}
+#carrousel_container button {
+  position: absolute;
+  background: none;
+  background-color: #ffffff;
+  border: none;
+  top: 50%;
+  transform: translateY(-50%);
+  display: grid;
+  place-items: center;
+  padding: 8px;
+  border-radius: 50%;
+}
+#carrousel_container button svg {
+  stroke: black;
+  width: 24px;
+  height: 24px;
+}
+#carrousel_container button#btn-izq {
+  left: 10px;
+}
+#carrousel_container button#btn-der {
+  right: 10px;
+}

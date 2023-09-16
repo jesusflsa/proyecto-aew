@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Carver Marsh",
+    "discount": 2972.78,
+    "price": 3134.64,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "name": "Whitaker Velasquez",
+    "discount": 1286.06,
+    "price": 2621.91,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "name": "Strickland Roy",
+    "price": 3545.81,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "name": "Patrice Hutchinson",
+    "price": 2004.77,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "name": "Mcneil Jones",
+    "discount": 2409.44,
+    "price": 2379.62,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "name": "Barry Patton",
+    "discount": 2043.30,
+    "price": 3947.44,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "name": "Carla Serrano",
+    "discount": 1874.78,
+    "price": 3458.60,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "name": "Farmer Lewis",
+    "discount": 2776.49,
+    "price": 2668.61,
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "name": "Castro Benjamin",
+    "discount": 2200.33,
+    "price": 3126.10,
+    "picture": "http://placehold.it/32x32"
+  }
+]
