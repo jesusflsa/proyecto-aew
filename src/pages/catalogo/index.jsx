@@ -1,7 +1,9 @@
 import Producto from "./components/Producto";
+import products from "../../assets/catalogo.json";
+
 import "./catalogo.css";
 
-function Catalogo({ products, addToCart }) {
+function Catalogo() {
   const { zapatillasAdidas, polosPuma } = products;
   return (
     <section id="contenido">
@@ -16,13 +18,7 @@ function Catalogo({ products, addToCart }) {
         </div>
         <div id="catalogoContenedor">
           {zapatillasAdidas.map((product) => {
-            return (
-              <Producto
-                key={product.code}
-                product={product}
-                addToCart={addToCart}
-              />
-            );
+            return <Producto key={product.code} product={product} />;
           })}
         </div>
       </div>

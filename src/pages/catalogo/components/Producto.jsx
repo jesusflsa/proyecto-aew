@@ -1,11 +1,11 @@
 import React from "react";
-import { useState } from "react";
-import { PiShoppingCartFill, PiShoppingCart } from "react-icons/pi";
+import { PiShoppingCart } from "react-icons/pi";
+import { useProducto } from "../hooks/useProducto";
 
-function Producto({ product, addToCart }) {
-  const [cartIcon, setCartIcon] = useState(<PiShoppingCart />);
-  const { name, image, price } = product;
-  const discount = product.discount ?? product.discount;
+function Producto({ product }) {
+  const { producto, addToCart } = useProducto(product);
+  const { name, image, discount, price } = producto;
+
   return (
     <div className="catalogo_item">
       <div className="item_img">
@@ -15,23 +15,18 @@ function Producto({ product, addToCart }) {
         <div className="item_data">
           <h3 className="item_name">{name}</h3>
           <span className="item_price">
-            {product.discount ? (
+            {discount ? (
               <>
-                <p className="item_discount">S/.{discount.toFixed(2)}</p>
-                <del className="item_value">S/.{price.toFixed(2)}</del>
+                <p className="item_discount">S/.{discount}</p>
+                <del className="item_value">S/.{price}</del>
               </>
             ) : (
-              <p className="item_value">S/.{price.toFixed(2)}</p>
+              <p className="item_value">S/.{price}</p>
             )}
           </span>
         </div>
-        <button
-          className="item_add"
-          onMouseOver={() => setCartIcon(<PiShoppingCartFill />)}
-          onMouseOut={() => setCartIcon(<PiShoppingCart />)}
-          onClick={() => addToCart(product)}
-        >
-          {cartIcon}
+        <button className="item_add" onClick={addToCart}>
+          <PiShoppingCart />
         </button>
       </div>
     </div>

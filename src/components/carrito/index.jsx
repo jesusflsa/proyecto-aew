@@ -1,53 +1,19 @@
-import Item from "./Item";
+import Item from "./components/Item";
 import "./carrito.css";
 import { NavLink } from "react-router-dom";
 import { BiXCircle, BiSolidXCircle } from "react-icons/bi";
 import { useState } from "react";
+import { useCart } from "../../context/carrito";
 
-function Carrito({ carrito, setCarrito, setHandleCarrito }) {
+function Carrito() {
   const [carritoBtnHover, setCarritoBtnHover] = useState(false);
-  /**
-   * Aumentar la cantidad en el carrito
-   */
-  function addQuantity(product) {
-    product.quantity++;
-    setCarrito([...carrito]);
-  }
-
-  /**
-   * Editar cantidad en el carrito
-   */
-  function editQuantity(product, value) {
-    product.quantity = value;
-    setCarrito([...carrito]);
-  }
-
-  /**
-   * Disminuir la cantidad en el carrito
-   */
-  function removeQuantity(product) {
-    if (product.quantity > 1) {
-      product.quantity--;
-      setCarrito([...carrito]);
-    }
-  }
-
-  /**
-   * Eliminar item del carrito
-   */
-  function deleteItem(product) {
-    const updatedCart = carrito.filter((data) => !(data.code === product.code));
-    setCarrito(updatedCart);
-  }
-
-  var valorTotal = 0; // Valor total de los productos
-
+  const carrito = useCart();
   return (
     <div id="carrito">
       <div className="carrito_header">
         <button
           className="carrito_header-icon"
-          onClick={() => setHandleCarrito("cerrado")}
+          onClick={() => setHandleCarrito(false)}
           onMouseOver={() => setCarritoBtnHover(true)}
           onMouseOut={() => setCarritoBtnHover(false)}
         >
@@ -56,21 +22,7 @@ function Carrito({ carrito, setCarrito, setHandleCarrito }) {
       </div>
       <div className="cart_products">
         {carrito.map((product) => {
-          // Si descuento existe retorna descuento sino retorna precio
-          const precio = product.discount ? product.discount : product.price;
-
-          // El valor total incrementa en el precio por la cantidad de cada
-          valorTotal += product.quantity * precio;
-          return (
-            <Item
-              product={product}
-              key={product.code}
-              addQuantity={addQuantity}
-              removeQuantity={removeQuantity}
-              editQuantity={editQuantity}
-              deleteItem={deleteItem}
-            />
-          );
+          return <Item product={product} key={product.code} />;
         })}
       </div>
       <div className="carrito_bottom">

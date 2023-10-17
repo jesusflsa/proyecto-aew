@@ -1,18 +1,19 @@
 import { NavLink } from "react-router-dom";
 import { PiShoppingCartFill, PiShoppingCart } from "react-icons/pi";
 import "./header.css";
-import logo from "/public/logo.png";
+import logo from "/logo.png";
 import { BiUser } from "react-icons/bi";
 import { useState } from "react";
 
-function Header({ handleCarrito, setHandleCarrito }) {
+const routes = [
+  { name: "Inicio", route: "/" },
+  { name: "Catálogo", route: "/catalogo" },
+  { name: "Soporte", route: "/soporte" },
+];
+
+function Header() {
   const account = JSON.parse(localStorage.getItem("account"));
   const [user, setUser] = useState(account ? account.username : null);
-  const routes = [
-    { name: "Inicio", route: "/" },
-    { name: "Catálogo", route: "/catalogo" },
-    { name: "Soporte", route: "/soporte" },
-  ];
   return (
     <header>
       <nav className="header_navbar">
@@ -43,20 +44,12 @@ function Header({ handleCarrito, setHandleCarrito }) {
         )}
       </div>
       <div className="carrito_container">
-        <button
+        {/* <button
           className="carrito-btn"
-          onClick={() => {
-            handleCarrito === "abierto"
-              ? setHandleCarrito("cerrado")
-              : setHandleCarrito("abierto");
-          }}
+          onClick={() => setHandleCarrito((prev) => !prev)}
         >
-          {handleCarrito === "abierto" ? (
-            <PiShoppingCartFill />
-          ) : (
-            <PiShoppingCart />
-          )}
-        </button>
+          {handleCarrito ? <PiShoppingCartFill /> : <PiShoppingCart />}
+        </button> */}
       </div>
     </header>
   );

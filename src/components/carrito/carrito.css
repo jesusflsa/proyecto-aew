@@ -13,7 +13,7 @@ input {
   margin-right: 5px;
   background-color: gray;
   transition: transform 200ms;
-  transform: translateX(calc(100% + 5px));
+  /* transform: translateX(calc(100% + 5px)); */
   z-index: 1000;
 }
 #carrito .carrito_header {
@@ -91,6 +91,10 @@ input {
 }
 .item_data .item_data-name .price {
   color: rgba(16, 16, 16, 0.5);
+}
+.item_data .item_data-name .discount {
+  color: rgba(16, 16, 16, 0.2);
+  text-decoration: line-through;
 }
 .item_data .item_data-delete {
   display: grid;
