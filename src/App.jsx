@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 import products from "./assets/catalogo.json";
 // Components
-import Carrito from "./components/cart/Carrito";
-import Header from "./Header";
+import Carrito from "./components/carrito";
+import Header from "./components/header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Pages
-import Catalogo from "./pages/Catalogo";
-import Inicio from "./pages/Inicio";
-import Pagar from "./pages/Pagar";
-import Soporte from "./pages/Soporte";
-import Cuenta from "./pages/Cuenta";
+import Inicio from "./pages/inicio";
+import Catalogo from "./pages/catalogo";
+import Soporte from "./pages/soporte";
+import Pagar from "./pages/pagar";
+import Cuenta from "./pages/cuenta";
 
 function App() {
   const data = JSON.parse(localStorage.getItem("products"));
@@ -69,7 +69,7 @@ function App() {
           setHandleCarrito={setHandleCarrito}
         />
         <Routes>
-          <Route path="/" element={<Inicio></Inicio>} />
+          <Route path="/" element={<Inicio />} />
           <Route
             path="/catalogo"
             element={<Catalogo products={products} addToCart={addToCart} />}

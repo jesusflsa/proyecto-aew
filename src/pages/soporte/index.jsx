@@ -1,39 +1,10 @@
 import React from "react";
-import at from "../assets/img/support/contacto/at.png";
-import phone from "../assets/img/support/contacto/phone.png";
-import whatsapp from "../assets/img/support/contacto/whatsapp.png";
-import user from "../assets/img/support/contacto/user.png";
-import quote from "../assets/img/support/quote.svg";
+import { contacto } from "../../assets/img/Images";
+const { at, phone, whatsapp, user, quote } = contacto;
+import "./soporte.css";
+import faq from "./faq.json";
 
-import "../css/soporte.css";
 const Soporte = () => {
-  const faq = [
-    {
-      question: "¿Qué métodos de pagos aceptan?",
-      answer:
-        "Aceptamos diversas formas de pago, incluyendo tarjetas de crédito, débito y PayPal.",
-    },
-    {
-      question: "¿Cuál es el plazo de entrega de los productos?",
-      answer:
-        "El plazo de entrega varía según la ubicación y el tipo de envío seleccionado.",
-    },
-    {
-      question: "¿Ofrecen envío internacional?",
-      answer:
-        "De momento hacemos envios a Argentina, Bolivia, Colombia, Cuba, Ecuador, Estados Unidos, México, Perú y Uruguay",
-    },
-    {
-      question: "¿Aceptan devoluciones?",
-      answer:
-        "Sí, contamos con una política de devolución que permite devolver productos dentro de un período de 14 días. Por favor, consulte nuestra política de devoluciones en tienda para obtener más información.",
-    },
-    {
-      question: "¿Ofrecen descuentos o promociones especiales?",
-      answer:
-        "Sí, ofrecemos descuentos y promociones especiales de forma regular. Para enterarte de las promociones que lanzamos siguenos en nuestra cuenta de Instagram.",
-    },
-  ];
   const contact = [
     {
       icon: at,

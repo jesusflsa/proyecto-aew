@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import male from "../../assets/img/account/male.png";
-import female from "../../assets/img/account/female.png";
+import { genders } from "../../../assets/img/Images";
 
 function UserInfo() {
   const [editAccount, setEditAccount] = useState(false);
@@ -73,7 +72,7 @@ function UserInfo() {
       <div className="account_info">
         <div className="account_photo">
           <img
-            src={selectGender === "female" ? female : male}
+            src={selectGender === "female" ? genders.female : genders.male}
             alt="Profile photo"
           />
           <h3 className="username_text">{account && account.username}</h3>

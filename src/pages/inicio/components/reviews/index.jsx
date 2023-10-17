@@ -1,6 +1,6 @@
-import ReviewItem from "./ReviewItem";
-import "../../css/reviews.css";
-import users from "../../assets/reviews";
+import ReviewItem from "./Item";
+import "./reviews.css";
+import users from "./users";
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi2";
 import { useEffect } from "react";
 

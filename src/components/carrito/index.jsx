@@ -1,5 +1,5 @@
 import Item from "./Item";
-import "../../css/carrito.css";
+import "./carrito.css";
 import { NavLink } from "react-router-dom";
 import { BiXCircle, BiSolidXCircle } from "react-icons/bi";
 import { useState } from "react";
@@ -36,7 +36,7 @@ function Carrito({ carrito, setCarrito, setHandleCarrito }) {
    * Eliminar item del carrito
    */
   function deleteItem(product) {
-    const updatedCart = carrito.filter((data) => !(data.name === product.name));
+    const updatedCart = carrito.filter((data) => !(data.code === product.code));
     setCarrito(updatedCart);
   }
 

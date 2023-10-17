@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { PiShoppingCartFill, PiShoppingCart } from "react-icons/pi";
-import "./css/header.css";
-import logo from "./assets/logo.png";
+import "./header.css";
+import logo from "/public/logo.png";
 import { BiUser } from "react-icons/bi";
 import { useState } from "react";
 

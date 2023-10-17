@@ -1,6 +1,5 @@
-import { NavLink } from "react-router-dom";
-import Producto from "../components/catalog/Producto";
-import "../css/catalogo.css";
+import Producto from "./components/Producto";
+import "./catalogo.css";
 
 function Catalogo({ products, addToCart }) {
   const { zapatillasAdidas, polosPuma } = products;

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { carrousel } from "./Images";
+import { carrousel } from "../../../assets/img/Images";
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi2";
 
 const Carrousel = () => {
@@ -8,6 +8,7 @@ const Carrousel = () => {
     const lastImg = carrusel.lastChild;
     carrusel.insertAdjacentElement("afterbegin", lastImg);
   }, []);
+  
   const moveCarrouselLeft = () => {
     const carrusel = document.getElementById("carrousel-wrapper");
     const lastImg = carrusel.lastChild;
