@@ -1,8 +1,11 @@
 import Item from "./Item";
 import "../../css/carrito.css";
 import { NavLink } from "react-router-dom";
+import { BiXCircle, BiSolidXCircle } from "react-icons/bi";
+import { useState } from "react";
 
 function Carrito({ carrito, setCarrito, setHandleCarrito }) {
+  const [carritoBtnHover, setCarritoBtnHover] = useState(false);
   /**
    * Aumentar la cantidad en el carrito
    */
@@ -41,10 +44,16 @@ function Carrito({ carrito, setCarrito, setHandleCarrito }) {
 
   return (
     <div id="carrito">
-      {
-        // Si el carrito tiene items, imprime un <p> con su cantidad
-        carrito.length !== 0 && <p>{carrito.length}</p>
-      }
+      <div className="carrito_header">
+        <button
+          className="carrito_header-icon"
+          onClick={() => setHandleCarrito("cerrado")}
+          onMouseOver={() => setCarritoBtnHover(true)}
+          onMouseOut={() => setCarritoBtnHover(false)}
+        >
+          {carritoBtnHover ? <BiSolidXCircle /> : <BiXCircle />}
+        </button>
+      </div>
       <div className="cart_products">
         {carrito.map((product) => {
           // Si descuento existe retorna descuento sino retorna precio
@@ -55,7 +64,7 @@ function Carrito({ carrito, setCarrito, setHandleCarrito }) {
           return (
             <Item
               product={product}
-              key={product.name}
+              key={product.code}
               addQuantity={addQuantity}
               removeQuantity={removeQuantity}
               editQuantity={editQuantity}

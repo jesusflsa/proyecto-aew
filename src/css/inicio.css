@@ -7,11 +7,24 @@
 #carrousel-wrapper {
   display: flex;
   transform: translateX(-100%);
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+@keyframes moveImageLeft {
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes moveImageRight {
+  100% {
+    transform: translate(-200%);
+  }
 }
 #carrousel-wrapper img {
   width: 100%;
 }
-#carrousel_container button {
+.carrousel-btn-left,
+.carrousel-btn-right {
   position: absolute;
   background: none;
   background-color: #ffffff;
@@ -23,14 +36,15 @@
   padding: 8px;
   border-radius: 50%;
 }
-#carrousel_container button svg {
+.carrousel-btn-left svg,
+.carrousel-btn-right svg {
   stroke: black;
   width: 24px;
   height: 24px;
 }
-#carrousel_container button#btn-izq {
+.carrousel-btn-left {
   left: 10px;
 }
-#carrousel_container button#btn-der {
+.carrousel-btn-right {
   right: 10px;
 }

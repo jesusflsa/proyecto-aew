@@ -1,59 +1,83 @@
 /* Header */
 header {
+  display: flex;
   width: 100%;
   height: 72px;
-  display: flex;
   padding: 0 8%;
-  box-shadow: 0 -15px 20px #000;
-  position: fixed;
-  background-color: #fff;
-  margin-top: -72px;
-  z-index: 100;
-  align-items: center;
   justify-content: space-between;
-}
-/* Izquierda */
-header .navbar {
-  display: flex;
-  justify-content: left;
   align-items: center;
-  gap: 8px;
-  flex: 1;
+  box-shadow: 0 -15px 20px #000000;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 100;
 }
-header .navbar a:visited,
-header .navbar a {
-  font-size: 1em;
+
+/* Izquierda */
+.header_navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  padding: 0 10px;
+}
+.header_navbar li {
+  display: inline-block;
+  transition: 0.25s;
+}
+.header_navbar a,
+.header_navbar a:visited {
   text-decoration: none;
   color: #969696;
-  transition: all 0.25s;
+  transition: 0.25s;
   padding: 10px 15px;
+  border-radius: 7px;
 }
-.navbar a:hover,
-.navbar a:visited:hover {
-  color: #1b1b1b;
-}
-.navbar a.active {
-  color: #050505 !important;
+.header_navbar a:hover {
+  color: #0b0d17;
+  text-decoration: underline;
 }
 
-/* Centro */
-header .header_logo {
-  max-width: 80px;
-  justify-content: center;
-  align-items: center;
-  justify-self: center;
+/* Logo */
+.header_logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  height: 50%;
 }
-header .header_logo img {
-  height: 35px;
+.header_logo img {
+  height: 100%;
   transition: all 0.2s;
 }
-
-header .header_logo img:hover {
-  transform: scarle(1.1);
+.header_logo:hover img {
+  transform: scale(1.1);
+}
+#header_login {
+  display: flex;
+  gap: 10px;
+}
+#header_login a,
+#header_login a:visited {
+  width: fit-content;
+  display: flex;
+  text-decoration: none;
+  height: 100%;
+  color: #969696;
+  transition: 0.25s;
+  border-radius: 7px;
+}
+#header_login a:hover {
+  color: #0b0d17;
+}
+#header_login a svg {
+  margin-right: 4px;
+  height: 100%;
+  width: 20px;
 }
 
 /* Derecha */
 header .carrito_container {
+  margin-left: 8px;
   display: flex;
   flex: 1;
   justify-content: right;

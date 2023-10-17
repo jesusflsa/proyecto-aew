@@ -12,14 +12,34 @@ input {
   height: calc(100vh - 84px);
   margin-right: 5px;
   background-color: gray;
-  transition: transform 250ms ease-out;
-  padding: 0 25px;
+  transition: transform 200ms;
   transform: translateX(calc(100% + 5px));
+  z-index: 1000;
+}
+#carrito .carrito_header {
+  height: 50px;
+  position: relative;
+  z-index: inherit;
+}
+.carrito_header .carrito_header-icon {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.carrito_header .carrito_header-icon svg {
+  width: 100%;
+  height: 100%;
 }
 #carrito .cart_products {
   overflow-y: scroll;
   flex: 1;
-  padding-bottom: 80px;
+  padding: 0 25px 80px;
 }
 #carrito .cart_products::-webkit-scrollbar {
   display: none;
@@ -32,7 +52,7 @@ input {
   background-color: white;
   border-radius: 8px;
   gap: 16px;
-  padding: 16px;
+  padding-right: 8px;
   justify-content: space-evenly;
   position: relative;
 }
@@ -55,11 +75,13 @@ input {
   flex-direction: column;
   justify-content: space-around;
   padding: 8px;
+  margin-right: 8px;
 }
 .item_data .item_data-top {
   display: flex;
   width: 100%;
   align-items: center;
+  padding-right: 20px;
 }
 .item_data .item_data-name {
   flex: 1;
@@ -70,7 +92,7 @@ input {
 .item_data .item_data-name .price {
   color: rgba(16, 16, 16, 0.5);
 }
-.item_data .item_data-delete button {
+.item_data .item_data-delete {
   display: grid;
   place-items: center;
   background: none;
@@ -82,7 +104,7 @@ input {
   top: 20px;
   right: 20px;
 }
-.item_data-delete button:hover svg {
+.item_data-delete:hover svg {
   color: red;
 }
 .item_data-delete svg {

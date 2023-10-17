@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import products from "./assets/products.json";
+import products from "./assets/catalogo.json";
 // Components
 import Carrito from "./components/cart/Carrito";
 import Header from "./Header";
@@ -8,6 +8,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Catalogo from "./pages/Catalogo";
 import Inicio from "./pages/Inicio";
 import Pagar from "./pages/Pagar";
+import Soporte from "./pages/Soporte";
+import Cuenta from "./pages/Cuenta";
 
 function App() {
   const data = JSON.parse(localStorage.getItem("products"));
@@ -23,7 +25,8 @@ function App() {
    */
 
   function addToCart(product) {
-    const data = carrito.find((data) => data.name === product.name);
+    console.log(product);
+    const data = carrito.find((data) => data.code === product.code);
     if (data) {
       data.quantity++;
       setCarrito([...carrito]);
@@ -32,9 +35,10 @@ function App() {
       setCarrito([
         ...carrito,
         {
+          code: product.code,
           name: product.name,
-          price: price,
-          picture: product.picture,
+          price: product.price,
+          image: product.image,
           quantity: 1,
         },
       ]);
@@ -59,21 +63,22 @@ function App() {
         setHandleCarrito={setHandleCarrito}
       />
       <main>
+        <Carrito
+          carrito={carrito}
+          setCarrito={setCarrito}
+          setHandleCarrito={setHandleCarrito}
+        />
         <Routes>
           <Route path="/" element={<Inicio></Inicio>} />
           <Route
             path="/catalogo"
             element={<Catalogo products={products} addToCart={addToCart} />}
           />
-          <Route path="/catalogo/hombres" />
           <Route path="/pagar" element={<Pagar carrito={carrito} />} />
+          <Route path="/soporte" element={<Soporte />} />
+          <Route path="/cuenta" element={<Cuenta />} />
         </Routes>
       </main>
-      <Carrito
-        carrito={carrito}
-        setCarrito={setCarrito}
-        setHandleCarrito={setHandleCarrito}
-      />
     </BrowserRouter>
   );
 }

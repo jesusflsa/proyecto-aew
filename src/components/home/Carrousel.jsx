@@ -1,51 +1,65 @@
-import carrouselImages from "./Images";
+import { useEffect } from "react";
+import { carrousel } from "./Images";
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi2";
 
 const Carrousel = () => {
-  function moveImage(boolean) {
+  useEffect(() => {
     const carrusel = document.getElementById("carrousel-wrapper");
-    const images = carrusel.querySelectorAll("img");
-    const buttons = document.querySelectorAll(".carrousel-btn");
-    carrusel.style.transition = `all 0.3s`;
-    carrusel.style.transform = `translateX(${boolean ? "-200%" : 0})`;
-    buttons[0].disabled = true;
-    buttons[1].disabled = true;
+    const lastImg = carrusel.lastChild;
+    carrusel.insertAdjacentElement("afterbegin", lastImg);
+  }, []);
+  const moveCarrouselLeft = () => {
+    const carrusel = document.getElementById("carrousel-wrapper");
+    const lastImg = carrusel.lastChild;
+    const button = document.querySelector(".carrousel-btn-left");
+    carrusel.style.animationName = "moveImageLeft";
+    button.disabled = true;
 
     setTimeout(() => {
-      carrusel.style.transition = ``;
-      carrusel.style.transform = `translateX(-100%)`;
-      boolean
-        ? carrusel.insertAdjacentElement("beforeend", images[0])
-        : carrusel.insertAdjacentElement(
-            "afterbegin",
-            images[images.length - 1]
-          );
-      buttons[0].disabled = false;
-      buttons[1].disabled = false;
+      carrusel.insertAdjacentElement("afterbegin", lastImg);
+      carrusel.style.animationName = "";
+      button.disabled = false;
     }, 300);
-  }
+  };
+  const moveCarrouselRight = () => {
+    const carrusel = document.getElementById("carrousel-wrapper");
+    const firstImg = carrusel.firstChild;
+    const button = document.querySelector(".carrousel-btn-right");
+    carrusel.style.animationName = "moveImageRight";
+    button.disabled = true;
+
+    setTimeout(() => {
+      carrusel.insertAdjacentElement("beforeend", firstImg);
+      carrusel.style.animationName = "";
+      button.disabled = false;
+    }, 300);
+  };
   return (
-    <div id="carrousel_container">
+    <section id="carrousel_container">
       <div id="carrousel-wrapper">
-        {carrouselImages.map((image, index) => {
-          return <img src={image} alt="" key={`Image ${index}`} />;
+        {carrousel.map((image, index) => {
+          return (
+            <img src={image} alt={`Image ${index}`} key={`Image ${index}`} />
+          );
         })}
       </div>
       <button
-        id="btn-izq"
-        className="carrousel-btn"
-        onClick={() => moveImage(false)}
+        className="carrousel-btn carrousel-btn-left"
+        onClick={() => {
+          moveCarrouselLeft();
+        }}
       >
         <HiOutlineChevronLeft />
       </button>
       <button
-        id="btn-der"
-        className="carrousel-btn"
-        onClick={() => moveImage(true)}
+        className="carrousel-btn carrousel-btn-right"
+        onClick={() => {
+          moveCarrouselRight();
+        }}
       >
         <HiOutlineChevronRight />
       </button>
-    </div>
+    </section>
   );
 };
 
