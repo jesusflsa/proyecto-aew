@@ -1,7 +1,7 @@
 import React from "react";
-import "./cuenta.css";
-import AccountInfo from "./components/AccountInfo";
-import ListaCompra from "./components/ListaCompra";
+import "../css/cuenta.css";
+import AccountInfo from "../components/CuentaInfo";
+import ListaCompra from "../components/CuentaCompra";
 
 function Cuenta() {
   return (

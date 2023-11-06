@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { genders } from "../../../assets/img/Images";
+import { genders } from "../assets/img/Images";
 
 function UserInfo() {
   const [editAccount, setEditAccount] = useState(false);
