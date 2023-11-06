@@ -1,8 +1,8 @@
 import React from "react";
-import { contacto } from "../../assets/img/Images";
+import { contacto } from "../assets/img/Images";
 const { at, phone, whatsapp, user, quote } = contacto;
-import "./soporte.css";
-import faq from "./faq.json";
+import "../css/soporte.css";
+import faq from "../assets/faq.json";
 
 const Soporte = () => {
   const contact = [

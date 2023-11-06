@@ -35,7 +35,7 @@ export const carrousel = [
   carrouselCuatro,
 ];
 
-export const sponsors = {
+export const sponsorsImg = {
   adidas: adidas,
   nike: nike,
   puma: puma,

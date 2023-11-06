@@ -4,7 +4,7 @@ function Pagar({ carrito }) {
     products: carrito,
   };
 
-  console.log(compraRealizada.products)
+  console.log(compraRealizada.products);
   return <div>Pagar</div>;
 }
 

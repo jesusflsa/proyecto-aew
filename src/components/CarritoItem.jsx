@@ -1,6 +1,6 @@
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { BsTrash3 } from "react-icons/bs";
-import { useCartItem } from "../hooks/useCartItem";
+import { useCartItem } from "../hooks/useCarritoItem";
 const Item = ({ product }) => {
   const { increaseQuantity, decreaseQuantity, updateQuantity, removeFromCart } =
     useCartItem(product);

@@ -1,8 +1,9 @@
-import ReviewItem from "./Item";
-import "./reviews.css";
-import users from "./users";
+import users from "../assets/reviewsData";
+
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi2";
 import { useEffect } from "react";
+
+import "../css/reviews.css";
 
 function Reviews() {
   useEffect(() => {
@@ -42,25 +43,22 @@ function Reviews() {
       <div id="review_slider">
         <div id="review_wrapper">
           {users.map((user) => (
-            <ReviewItem
-              key={user.author}
-              author={user.author}
-              title={user.title}
-              description={user.description}
-              image={user.image}
-            />
+            <article className="review_item" key={user.author}>
+              <div className="review_item-desc">
+                <h3>{user.title}</h3>
+                <p>{user.description}</p>
+              </div>
+              <div className="review_item-profile">
+                <img src={user.image} alt="" />
+                <h3>{user.author}</h3>
+              </div>
+            </article>
           ))}
         </div>
-        <button
-          className="review-btn-left"
-          onClick={() => moveReviewLeft()}
-        >
+        <button className="review-btn-left" onClick={() => moveReviewLeft()}>
           <HiOutlineChevronLeft />
         </button>
-        <button
-          className="review-btn-right"
-          onClick={() => moveReviewRight()}
-        >
+        <button className="review-btn-right" onClick={() => moveReviewRight()}>
           <HiOutlineChevronRight />
         </button>
       </div>

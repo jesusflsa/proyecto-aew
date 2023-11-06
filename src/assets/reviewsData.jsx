@@ -1,4 +1,4 @@
-import { reviews } from "../../../../assets/img/Images.jsx";
+import { reviews } from "./img/Images.jsx";
 
 const users = [
   {

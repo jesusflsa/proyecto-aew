@@ -1,15 +1,29 @@
-import Item from "./components/Item";
-import "./carrito.css";
+import Item from "./CarritoItem";
+import "../css/carrito.css";
 import { NavLink } from "react-router-dom";
 import { BiXCircle, BiSolidXCircle } from "react-icons/bi";
-import { useState } from "react";
-import { useCart } from "../../context/carrito";
+import { useEffect, useState } from "react";
+import { useCart } from "../hooks/useCarrito";
 
-function Carrito() {
-  const [carritoBtnHover, setCarritoBtnHover] = useState(false);
+function Carrito({ setHandleCarrito, handleCarrito }) {
   const carrito = useCart();
+
+  const [carritoBtnHover, setCarritoBtnHover] = useState(false);
+  const [totalPagar, setTotalPagar] = useState(0);
+
+  useEffect(() => {
+    var total = 0;
+    carrito.forEach((item) => {
+      total += item.price * item.quantity;
+    });
+    setTotalPagar(total);
+  }, [carrito]);
+
   return (
-    <div id="carrito">
+    <div
+      id="carrito"
+      style={{ transform: `translateX(${handleCarrito ? "0" : "105%"})` }}
+    >
       <div className="carrito_header">
         <button
           className="carrito_header-icon"
@@ -26,12 +40,10 @@ function Carrito() {
         })}
       </div>
       <div className="carrito_bottom">
-        {/* <p>Valor total: {valorTotal.toFixed(2)}</p> */}
+        <p>Valor total: {totalPagar.toFixed(2)}</p>
         <NavLink
           to="/pagar"
-          onClick={() => {
-            setHandleCarrito("cerrado");
-          }}
+          onClick={() => setHandleCarrito(false)}
           className="carrito_bottom-btn"
         >
           Procesar

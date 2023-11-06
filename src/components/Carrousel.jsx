@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { carrousel } from "../../../assets/img/Images";
+import { carrousel } from "../assets/img/Images";
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi2";
 
 const Carrousel = () => {

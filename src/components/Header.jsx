@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { PiShoppingCartFill, PiShoppingCart } from "react-icons/pi";
-import "./header.css";
+import "../css/header.css";
 import logo from "/logo.png";
 import { BiUser } from "react-icons/bi";
 import { useState } from "react";
@@ -11,7 +11,7 @@ const routes = [
   { name: "Soporte", route: "/soporte" },
 ];
 
-function Header() {
+function Header({ handleCarrito, setHandleCarrito }) {
   const account = JSON.parse(localStorage.getItem("account"));
   const [user, setUser] = useState(account ? account.username : null);
   return (
@@ -44,12 +44,12 @@ function Header() {
         )}
       </div>
       <div className="carrito_container">
-        {/* <button
+        <button
           className="carrito-btn"
           onClick={() => setHandleCarrito((prev) => !prev)}
         >
           {handleCarrito ? <PiShoppingCartFill /> : <PiShoppingCart />}
-        </button> */}
+        </button>
       </div>
     </header>
   );

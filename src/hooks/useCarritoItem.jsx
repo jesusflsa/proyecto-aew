@@ -2,7 +2,7 @@ import {
   useAddToCart,
   useRemoveFromCart,
   useUpdateQuantity,
-} from "../../../context/carrito";
+} from "./useCarrito";
 
 export function useCartItem(item) {
   const add = useAddToCart();

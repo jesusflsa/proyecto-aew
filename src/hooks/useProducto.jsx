@@ -1,4 +1,4 @@
-import { useAddToCart } from "../../../context/carrito";
+import { useAddToCart } from "./useCarrito";
 
 export function useProducto(item) {
   const add = useAddToCart();
