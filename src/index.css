@@ -18,9 +18,9 @@ html {
   min-height: 100vh;
 }
 main {
+  display: flex;
   margin-top: 72px;
   gap: 2em;
-  display: flex;
   flex-direction: column;
   flex: 1;
 }

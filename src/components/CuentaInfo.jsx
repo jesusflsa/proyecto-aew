@@ -26,7 +26,7 @@ function UserInfo() {
     telephone.disabled = !editAccount;
     promotions.disabled = !editAccount;
 
-    if (account) {
+    if (!!account) {
       username.value = account.username;
       email.value = account.email;
       password.value = "";

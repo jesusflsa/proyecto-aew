@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 // Components
 import Carrito from "./components/Carrito";
 import Header from "./components/Header";
@@ -12,6 +12,7 @@ import Cuenta from "./pages/Cuenta";
 import Registro from "./pages/Registro";
 
 import CarritoProvider from "./hooks/useCarrito";
+import IniciarSesion from "./pages/IniciarSesion";
 
 function App() {
   const [handleCarrito, setHandleCarrito] = useState(false);
@@ -31,6 +32,7 @@ function App() {
             <Route path="/soporte" element={<Soporte />} />
             <Route path="/cuenta" element={<Cuenta />} />
             <Route path="/registrate" element={<Registro />} />
+            <Route path="/login" element={<IniciarSesion />} />
           </Routes>
         </main>
         <Carrito

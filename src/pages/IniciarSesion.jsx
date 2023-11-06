@@ -1,14 +1,14 @@
 import React from "react";
-import SignUpForm from "../components/SignUpForm";
+import SignInForm from "../components/SignInForm";
 
 import "../css/registrarse.css";
 
-const Registro = () => {
+const IniciarSesion = () => {
   return (
     <section className="registroContenedor">
-      <SignUpForm />
+      <SignInForm />
     </section>
   );
 };
 
-export default Registro;
+export default IniciarSesion;
