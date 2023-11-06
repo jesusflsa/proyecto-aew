@@ -1,5 +1,5 @@
 import React from "react";
-import ListaItem from "./ListaItem";
+import ListaItem from "./CuentaCompraItem";
 function ListaCompra() {
   return (
     <div className="purchase_list">
