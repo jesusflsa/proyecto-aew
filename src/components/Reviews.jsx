@@ -1,17 +1,8 @@
 import users from "../assets/reviewsData";
 
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi2";
-import { useEffect } from "react";
-
-import "../css/reviews.css";
 
 function Reviews() {
-  useEffect(() => {
-    const reviews = document.getElementById("review_wrapper");
-    const lastChild = reviews.lastChild;
-    reviews.insertAdjacentElement("afterbegin", lastChild);
-  }, []);
-
   function moveReviewLeft() {
     const reviews = document.getElementById("review_wrapper");
     const review_item = reviews.lastElementChild;

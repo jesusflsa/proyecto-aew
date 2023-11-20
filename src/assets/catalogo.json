@@ -1,467 +1,444 @@
 {
-  "zapatillasAdidas": [
+  "garnier": [
     {
-      "code": "7b66dec9de06441aae52a60501798199_9366",
-      "name": "Zapatillas Gazelle",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/7b66dec9de06441aae52a60501798199_9366/zapatillas-gazelle.jpg",
-      "price": 379
+      "code": "7603933",
+      "name": "Serum GARNIER Express Aclara Frasco 30ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/7603933-184-184/20251864.jpg?v=637822867076800000",
+      "price": "53.20"
     },
     {
-      "code": "466871e2d02642ccae905c7218a54310_9366",
-      "name": "Zapatillas Gazelle",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/466871e2d02642ccae905c7218a54310_9366/zapatillas-gazelle.jpg",
-      "price": 379
+      "code": "25355714",
+      "name": "Agua Micelar GARNIER Express Aclara Frasco 400ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355714-184-184/20199747.jpg?v=638097988186700000",
+      "price": "35.20"
     },
     {
-      "code": "9b983d5bc09a4d4aba39a8bf011869ba_9366",
-      "name": "Zapatillas Samba OG",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/9b983d5bc09a4d4aba39a8bf011869ba_9366/zapatillas-samba-og.jpg",
-      "price": 429
+      "code": "25355253",
+      "name": "Agua Micelar en Aceite GARNIER SkinActive Frasco 400ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355253-184-184/20172299.jpg?v=638097987363570000",
+      "price": "39.90"
     },
     {
-      "code": "ee99b4b9bde74f30a933a8bf011911ae_9366",
-      "name": "Zapatillas Samba OG",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/ee99b4b9bde74f30a933a8bf011911ae_9366/zapatillas-samba-og.jpg",
-      "price": 429
+      "code": "25355587",
+      "name": "Crema GARNIER Hidratante Express Aclara FPS30 Pote 50ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355587-184-184/20199740.jpg?v=638097987966230000",
+      "price": "26.32"
     },
     {
-      "code": "f112bd38aab24636aa55aae700d35989_9366",
-      "name": "Zapatillas Superstar",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/f112bd38aab24636aa55aae700d35989_9366/zapatillas-superstar.jpg",
-      "price": 359
+      "code": "11451496",
+      "name": "Pack GARNIER Crema Hidratante Express Aclara FPS30 50ml + Gel de Limpieza Express Aclara 150ml + Serum Express Aclara Frasco 30ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/11451496-184-184/K0000003840.jpg?v=637884890319370000",
+      "price": "79.90"
     },
     {
-      "code": "dc4640cb690e46e08efd5d6f0c4ccf89_9366",
-      "name": "Zapatillas Gazelle Bold",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/dc4640cb690e46e08efd5d6f0c4ccf89_9366/zapatillas-gazelle-bold.jpg",
-      "price": 429
+      "code": "26535333",
+      "name": "Hidratante Sérum Gel GARNIER Anti-manchas Frasco 50ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/26535333-184-184/20329293.jpg?v=638217226365070000",
+      "price": "27.90"
     },
     {
-      "code": "8d3ab16a86e64571b405aad600bad099_9366",
-      "name": "Zapatillas Superstar",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/8d3ab16a86e64571b405aad600bad099_9366/zapatillas-superstar.jpg",
-      "price": 359
+      "code": "25355437",
+      "name": "Agua Micelar GARNIER Pure Active Todo en 1 Frasco 400ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355437-184-184/20182889.jpg?v=638097987700430000",
+      "price": "39.90"
     },
     {
-      "code": "619873cf29a04bde9de7f2438e189291_9366",
-      "name": "Zapatillas Samba OG",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/619873cf29a04bde9de7f2438e189291_9366/zapatillas-samba-og.jpg",
-      "price": 429
+      "code": "25355290",
+      "name": "Agua Micelar GARNIER Todo Tipo de Pieles Frasco 100ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355290-184-184/20172286.jpg?v=638097987424670000",
+      "price": "14.50"
     },
     {
-      "code": "507b9464089e4c818536b4613435aebf_9366",
-      "name": "Zapatillas Samba OG",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/507b9464089e4c818536b4613435aebf_9366/zapatillas-samba-og.jpg",
-      "price": 429
+      "code": "25355217",
+      "name": "Agua Micelar GARNIER Todo en 1 Frasco 400ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355217-184-184/20172301.jpg?v=638097987297200000",
+      "price": "39.90"
     },
     {
-      "code": "8dc00c6e6ecc4ed682c4a738edd6e9d6_9366",
-      "name": "Zapatillas Gazelle",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/8dc00c6e6ecc4ed682c4a738edd6e9d6_9366/zapatillas-gazelle.jpg",
-      "price": 429
+      "code": "25355684",
+      "name": "Gel de Limpieza GARNIER Express Aclara Frasco 150ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355684-184-184/20199748.jpg?v=638097988125730000",
+      "price": "28.72"
     },
     {
-      "code": "bf5fcbca4a07457996ac6455a8fe08d6_9366",
-      "name": "Zapatillas Gazelle Indoor",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/bf5fcbca4a07457996ac6455a8fe08d6_9366/zapatillas-gazelle-indoor.jpg",
-      "price": 499
+      "code": "331629",
+      "name": "Tinte para Cabello GARNIER Nutrisse Coloríssimos 6646 Cobrizo Rubí Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/331629-184-184/20170956.jpg?v=637267229282070000",
+      "price": "16.90"
     },
     {
-      "code": "823aa49714f3402d8f1a7a095aeaa02a_9366",
-      "name": "Zapatillas Gazelle",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/823aa49714f3402d8f1a7a095aeaa02a_9366/zapatillas-gazelle.jpg",
-      "price": 399
+      "code": "19913601",
+      "name": "Tratamiento Anti Manchas GARNIER Express Aclara Tono Claro Frasco 40ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/19913601-184-184/20314496.jpg?v=638016539105330000",
+      "price": "35.92"
     },
     {
-      "code": "8b556efdb3b748b88de0d5ae601a23b0_9366",
-      "name": "Zapatillas Samba OG",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/8b556efdb3b748b88de0d5ae601a23b0_9366/zapatillas-samba-og.jpg",
-      "price": 429
+      "code": "25355036",
+      "name": "Tinte para Cabello GARNIER Nutrisse 60 Capuccino Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355036-184-184/1003790009.jpg?v=638097986761870000",
+      "price": "16.90"
     },
     {
-      "code": "7a89b4c1048042f3bc4591cdb14b1030_9366",
-      "name": "Zapatillas Samba OG",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/7a89b4c1048042f3bc4591cdb14b1030_9366/zapatillas-samba-og.jpg",
-      "price": 429
+      "code": "331348",
+      "name": "Tinte para Cabello GARNIER Nutrisse 61 Rubio Oscuro Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/331348-184-184/1003790010.jpg?v=637267223773200000",
+      "price": "16.90"
     },
     {
-      "code": "8ae9549e26654512aa180904583de268_9366",
-      "name": "Zapatillas Samba OG",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/8ae9549e26654512aa180904583de268_9366/zapatillas-samba-og.jpg",
-      "price": 429
+      "code": "331349",
+      "name": "Tinte para Cabello GARNIER Nutrisse 70 Champaña Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/331349-184-184/1003790014.jpg?v=637267223804930000",
+      "price": "16.90"
     },
     {
-      "code": "9d37d0b64d2c4959be4810fe233d1918_9366",
-      "name": "Zapatillas Gazelle",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/9d37d0b64d2c4959be4810fe233d1918_9366/zapatillas-gazelle.jpg",
-      "price": 379
+      "code": "25355115",
+      "name": "Tinte para Cabello GARNIER Nutrisse 57 Ámbar Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355115-184-184/1003790032.jpg?v=638097987041770000",
+      "price": "16.90"
     },
     {
-      "code": "b6e9a35b05b44c97b6f16ba0c89d863f_9366",
-      "name": "Zapatillas Samba OG",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/b6e9a35b05b44c97b6f16ba0c89d863f_9366/zapatillas-samba-og.jpg",
-      "price": 429
+      "code": "25354699",
+      "name": "Tinte para Cabello GARNIER Nutrisse 60 Rubio Oscuro profundo Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25354699-184-184/20116749.jpg?v=638097986156800000",
+      "price": "16.90"
     },
     {
-      "code": "3e1baa92e9a646ee8c5d3f2b94ffebe7_9366",
-      "name": "Zapatillas Gazelle Bold",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/3e1baa92e9a646ee8c5d3f2b94ffebe7_9366/zapatillas-gazelle-bold.jpg",
-      "price": 429
+      "code": "25355109",
+      "name": "Tinte para Cabello GARNIER Nutrisse 52 Chocolatissimo Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355109-184-184/1003790028.jpg?v=638097986974800000",
+      "price": "16.90"
     },
     {
-      "code": "4510f6389d484e87b1e4a16e1a53cbef_9366",
-      "name": "Zapatillas Gazelle",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/4510f6389d484e87b1e4a16e1a53cbef_9366/zapatillas-gazelle.jpg",
-      "price": 429
+      "code": "25354960",
+      "name": "Tinte para Cabello GARNIER Nutrisse 50 Castaña Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25354960-184-184/1003790005.jpg?v=638097986625270000",
+      "price": "16.90"
     },
     {
-      "code": "de052e62f17c47dbb608afd4013aeac1_9366",
-      "name": "Zapatillas Adi2000",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/de052e62f17c47dbb608afd4013aeac1_9366/zapatillas-adi2000.jpg",
-      "price": 479
+      "code": "25354887",
+      "name": "Tinte para Cabello GARNIER Nutrisse 10 Ébano Negro Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25354887-184-184/1003790002.jpg?v=638097986486570000",
+      "price": "16.90"
     },
     {
-      "code": "11328861da41453cb194b77a3acd1040_9366",
-      "name": "Zapatillas Adi2000",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/11328861da41453cb194b77a3acd1040_9366/zapatillas-adi2000.jpg",
-      "price": 479
+      "code": "1233725",
+      "name": "Agua Micelar GARNIER Óleo Frasco 100ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/1233725-184-184/20191334.jpg?v=637515096730570000",
+      "price": "15.50"
     },
     {
-      "code": "326b23bb0bec4643b0e0aebc011c6459_9366",
-      "name": "NY 90",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/326b23bb0bec4643b0e0aebc011c6459_9366/ny-90.jpg",
-      "price": 259
+      "code": "7603887",
+      "name": "Mascarilla Facial en Tela GARNIER Revitalizante Sobre 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/7603887-184-184/20235709.jpg?v=637822866677400000",
+      "price": "13.70"
     },
     {
-      "code": "aa0f4bc3ffe04bb5a544ace701322118_9366",
-      "name": "Zapatillas Forum Mid",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/aa0f4bc3ffe04bb5a544ace701322118_9366/zapatillas-forum-mid.jpg",
-      "price": 449
+      "code": "25355082",
+      "name": "Tinte para Cabello GARNIER Nutrisse 71 Almendra Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355082-184-184/1003790015.jpg?v=638097986831870000",
+      "price": "16.90"
     },
     {
-      "code": "16864b4139514154a0aeaeef00db76e9_9366",
-      "name": "NY 90",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/16864b4139514154a0aeaeef00db76e9_9366/ny-90.jpg",
-      "price": 259
+      "code": "25354924",
+      "name": "Tinte para Cabello GARNIER Nutrisse 40 Moca Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25354924-184-184/1003790004.jpg?v=638097986554070000",
+      "price": "16.90"
     },
     {
-      "code": "ad730047e49841cd8d4581ad6e7a69ce_9366",
-      "name": "FORUM BOLD STRIPES W",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/ad730047e49841cd8d4581ad6e7a69ce_9366/forum-bold-stripes-w.jpg",
-      "price": 429
+      "code": "25354844",
+      "name": "Tinte para Cabello GARNIER Nutrisse 30 Espresso Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25354844-184-184/1003790001.jpg?v=638097986415900000",
+      "price": "16.90"
     },
     {
-      "code": "88b2d0038e934f16ae35d3fb7ba66273_9366",
-      "name": "Zapatillas Stan Smith",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/88b2d0038e934f16ae35d3fb7ba66273_9366/zapatillas-stan-smith.jpg",
-      "price": 379
+      "code": "19913599",
+      "name": "Tratamiento Anti Manchas GARNIER Express Aclara Tono Medio Frasco 40ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/19913599-184-184/20314498.jpg?v=638016538614700000",
+      "price": "35.92"
     },
     {
-      "code": "2a9df0e7b976430a9f8b7c51717edde2_9366",
-      "name": "Zapatillas Astir",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/2a9df0e7b976430a9f8b7c51717edde2_9366/zapatillas-astir.jpg",
-      "price": 459
+      "code": "331351",
+      "name": "Tinte para Cabello GARNIER Nutrisse 73 Miel Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/331351-184-184/1003790016.jpg?v=637267223869200000",
+      "price": "16.90"
     },
     {
-      "code": "f28108ad69194a8fb48d81cd5caf5bc6_9366",
-      "name": "RIVALRY LOW",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/f28108ad69194a8fb48d81cd5caf5bc6_9366/rivalry-low.jpg",
-      "price": 429
+      "code": "537375",
+      "name": "Tinte para Cabello GARNIER Nutrisse Ultra Cobertura 50 Castaño Claro Profundo Caja 1Un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/537375-184-184/20116748.jpg?v=637421387372930000",
+      "price": "16.90"
     },
     {
-      "code": "6dd44e73c9d54ece9584aeae0181be51_9366",
-      "name": "USA 84",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/6dd44e73c9d54ece9584aeae0181be51_9366/usa-84.jpg",
-      "price": 279
+      "code": "25354997",
+      "name": "Tinte para Cabello GARNIER Nutrisse 53 Nuez Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25354997-184-184/1003790006.jpg?v=638097986691030000",
+      "price": "16.90"
     },
     {
-      "code": "038f98efd68948869a07acc300480492_9366",
-      "name": "Zapatillas Nizza Trek",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/038f98efd68948869a07acc300480492_9366/zapatillas-nizza-trek.jpg",
-      "price": 379
+      "code": "25355967",
+      "name": "Mascarilla Facial en Tela GARNIER Matificante Sobre 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355967-184-184/20235710.jpg?v=638097988704730000",
+      "price": "13.70"
     },
     {
-      "code": "82b6ceaa628c4287acd090c3ece28425_9366",
-      "name": "Zapatillas Forum Bonega",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/82b6ceaa628c4287acd090c3ece28425_9366/zapatillas-forum-bonega.jpg",
-      "price": 449
+      "code": "331484",
+      "name": "Mascarilla Facial de Tela GARNIER Skin Active Pure Carbón Unidad",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/331484-184-184/20183448.jpg?v=637267225202530000",
+      "price": "13.50"
     },
     {
-      "code": "4c7fc894d96f4fe08e2810f8f6d1700b_9366",
-      "name": "STAN SMITH",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/4c7fc894d96f4fe08e2810f8f6d1700b_9366/stan-smith.jpg",
-      "price": 379
+      "code": "25354735",
+      "name": "Tinte para Cabello GARNIER Nutrisse Ultra Cobertura 70 Rubio Profundo Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25354735-184-184/20116750.jpg?v=638097986223130000",
+      "price": "16.90"
     },
     {
-      "code": "7f80f940f01d4b47b229c5e5b79b2467_9366",
-      "name": "Zapatillas Forum Bold",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/7f80f940f01d4b47b229c5e5b79b2467_9366/zapatillas-forum-bold.jpg",
-      "price": 429
+      "code": "11451497",
+      "name": "Pack GARNIER Mascarilla Facial de Tela Express Aclara 1un + Agua Micelar Express Aclara Frasco 400ml + Serum Express Aclara Frasco 30ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/11451497-184-184/K0000003841.jpg?v=637884890321700000",
+      "price": "73.90"
     },
     {
-      "code": "8b6745f70ed7410d8f2b6fdb6dec6327_9366",
-      "name": "Zapatillas Forum Bold",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/8b6745f70ed7410d8f2b6fdb6dec6327_9366/zapatillas-forum-bold.jpg",
-      "price": 429
+      "code": "25355547",
+      "name": "Mascarilla en Tela GARNIER para Ojos Hidra Bomb Agua de Coco Bolsa  1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355547-184-184/20191244.jpg?v=638097987892330000",
+      "price": "12.50"
     },
     {
-      "code": "bbe20c21b6194528a2f4ad6a00f9c1c2_9366",
-      "name": "Zapatillas NMD_R1 Primeblue",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/bbe20c21b6194528a2f4ad6a00f9c1c2_9366/zapatillas-nmd_r1-primeblue.jpg",
-      "price": 549
+      "code": "25356016",
+      "name": "Mascarilla Facial en Tela GARNIER Calmante Sobre 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25356016-184-184/20235706.jpg?v=638097988762800000",
+      "price": "13.70"
     },
     {
-      "code": "d030a3f792ce466e82ca833e321c6b67_9366",
-      "name": "Zapatillas Campus 00s",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/d030a3f792ce466e82ca833e321c6b67_9366/zapatillas-campus-00s.jpg",
-      "price": 499
+      "code": "331625",
+      "name": "Tinte para Cabello GARNIER NUTRISSE Café Delicia 41 Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/331625-184-184/20170950.jpg?v=637267229239800000",
+      "price": "16.90"
     },
     {
-      "code": "e905e48e9c224c2fb259af6801654ab1_9366",
-      "name": "Zapatillas Forum Low PRIDE RM",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/e905e48e9c224c2fb259af6801654ab1_9366/zapatillas-forum-low-pride-rm.jpg",
-      "price": 459
+      "code": "331633",
+      "name": "Tinte para Cabello GARNIER Nutrisse 110 Negro Magnético Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/331633-184-184/20170957.jpg?v=637267229352200000",
+      "price": "16.90"
     },
     {
-      "code": "557ec48275bb4d6cb8dbafc50157bf35_9366",
-      "name": "Zapatillas adidas Court TNS Premiere",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/557ec48275bb4d6cb8dbafc50157bf35_9366/zapatillas-adidas-court-tns-premiere.jpg",
-      "price": 379
+      "code": "25355517",
+      "name": "Mascarilla en Tela GARNIER para Ojos Hidra Bomb Jugo de Naranja Bolsa  1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355517-184-184/20191288.jpg?v=638097987836930000",
+      "price": "12.50"
     },
     {
-      "code": "9775786cd7b446af9ddcac5e004a275e_9366",
-      "name": "Zapatillas Forum Low",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/9775786cd7b446af9ddcac5e004a275e_9366/zapatillas-forum-low.jpg",
-      "price": 399
+      "code": "1099908",
+      "name": "Pack GARNIER Agua Micelar Todo en 1 Frasco 400ml + Óleo Frasco 100ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/1099908-184-184/S000000769.jpg?v=637505601327100000",
+      "price": "39.90"
     },
     {
-      "code": "8baa3d38661b403d960fa90a7e550be8_9366",
-      "name": "RIVALRY LOW",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/8baa3d38661b403d960fa90a7e550be8_9366/rivalry-low.jpg",
-      "price": 399
+      "code": "25355635",
+      "name": "Mascarilla Facial de Tela GARNIER Express Aclara 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25355635-184-184/20199743.jpg?v=638097988047130000",
+      "price": "10.80"
     },
     {
-      "code": "ca6eb69651d94083889cacb60018d8bb_9366",
-      "name": "Zapatillas Forum Low",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/ca6eb69651d94083889cacb60018d8bb_9366/zapatillas-forum-low.jpg",
-      "price": 399
+      "code": "28291943",
+      "name": "Pack GARNIER Serum Express Aclara 30ml + Agua Micelar en Aceite SkinActive 400ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/28291943-184-184/K0000008701.jpg?v=638350526038770000",
+      "price": "78.90"
     },
     {
-      "code": "de83a99b2ae84f29ac75af6301749def_9366",
-      "name": "Zapatillas Stan Smith PRIDE RM",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/de83a99b2ae84f29ac75af6301749def_9366/zapatillas-stan-smith-pride-rm.jpg",
-      "price": 429
+      "code": "26760409",
+      "name": "Pack FRUCTIS Shampoo Garnier Manteca de Cacao 300ml + Mascarilla Nutrición Intensiva Manteca de Cacao Frasco 350ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/26760409-184-184/K0000007823.jpg?v=638228675422200000",
+      "price": "35.90"
     },
     {
-      "code": "cab065fd15504ba2a0bba59b4097f423_9366",
-      "name": "Zapatillas NMD_R1",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/cab065fd15504ba2a0bba59b4097f423_9366/zapatillas-nmd_r1.jpg",
-      "price": 549
+      "code": "26051966",
+      "name": "Shampoo Garnier FRUCTIS Manteca de Cacao Frasco 300ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/26051966-184-184/20329307.jpg?v=638167739643930000",
+      "price": "19.90"
     },
     {
-      "code": "97ca84b0483448fb9172e547c74a8d56_9366",
-      "name": "Zapatillas Forum Bonega",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/97ca84b0483448fb9172e547c74a8d56_9366/zapatillas-forum-bonega.jpg",
-      "price": 449
+      "code": "498397",
+      "name": "Tinte para Cabello GARNIER Nutrisse Coloríssimos 462 Cieruela Caja 1un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/498397-184-184/20170951.jpg?v=637405551103070000",
+      "price": "16.90"
     },
     {
-      "code": "cd23acf75dfd4bf0b797aed001363b6f_9366",
-      "name": "USA 84",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/cd23acf75dfd4bf0b797aed001363b6f_9366/usa-84.jpg",
-      "price": 279
-    },
-    {
-      "code": "1891f4f6ac6b4102aca8c0b07908e023_9366",
-      "name": "Zapatillas Handball Spezial",
-      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/1891f4f6ac6b4102aca8c0b07908e023_9366/zapatillas-handball-spezial.jpg",
-      "price": 429
+      "code": "4716373",
+      "name": "Pack Crema de Tratamiento L'OREAL Revitalift Frasco 30ml + Serum GARNIER Express Aclara Frasco 30ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/4716373-184-184/K0000002562.jpg?v=637762156701200000",
+      "price": "108.90"
     }
   ],
-  "polosPuma": [
+  "neutrogena": [
     {
-      "name": "Polo BMW M Motorsport para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/621312/01/fv/fnd/EEA/fmt/png",
-      "price": 201.5
+      "code": "1704280",
+      "name": "Crema Hidratante Facial NEUTROGENA Hydroboost Water Gel Frasco 50ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/1704280-184-184/20125136.jpg?v=637575445201230000",
+      "price": "45.90"
     },
     {
-      "name": "Polo de piqué para hombre Essentials",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/586674/51/fv/fnd/EEA/fmt/png",
-      "price": 124.93
+      "code": "25704005",
+      "name": "Bloqueador NEUTROGENA Óleo SPF 70+ Frasco 40g",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25704005-184-184/20280800.jpg?v=638120215075330000",
+      "price": "47.90"
     },
     {
-      "name": "Polo Scuderia Ferrari 2023 Team",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/763417/01/fv/fnd/EEA/fmt/png",
-      "price": 342.55
+      "code": "27285360",
+      "name": "Serúm NEUTROGENA Hydro Boost Concentrado Frasco 30ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/27285360-184-184/20357977.jpg?v=638273171210400000",
+      "price": "75.60"
     },
     {
-      "name": "Polo de golf PUMA x PALM TREE CREW estampado para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/621658/02/fv/fnd/EEA/fmt/png",
-      "price": 342.55
+      "code": "26753083",
+      "name": "Hidratante Facial NEUTROGENA Hydro Boost Water Gel FPS25 Frasco 40g",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/26753083-184-184/20356071.jpg?v=638225642514670000",
+      "price": "51.90"
     },
     {
-      "name": "Polo de piqué para hombre Essentials",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/586674/52/fv/fnd/EEA/fmt/png",
-      "price": 124.93
+      "code": "1605117",
+      "name": "Crema para Ojos NEUTROGENA Hydro Boost Water Gel Caja 15g",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/1605117-184-184/20125135.jpg?v=637566186036530000",
+      "price": "49.90"
     },
     {
-      "name": "Polo teamLIGA para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/658396/04/fv/fnd/EEA/fmt/png",
-      "price": 181.35
+      "code": "1704285",
+      "name": "Water Gel NEUTROGENA Hydro Boost FPS 25 Frasco 55g",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/1704285-184-184/20160400.jpg?v=637575445356000000",
+      "price": "51.90"
     },
     {
-      "name": "Polo de golf MATTR Mirage para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/622137/02/fv/fnd/EEA/fmt/png",
-      "price": 302.25
+      "code": "26963691",
+      "name": "Bloqueador NEUTROGENA Óleo Clara SPF 70+ Frasco 40g",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/26963691-184-184/20280793.jpg?v=638241409315330000",
+      "price": "47.90"
     },
     {
-      "name": "Polo de golf para hombre Gamer",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/599120/02/fv/fnd/EEA/fmt/png",
-      "price": 261.95
+      "code": "26963693",
+      "name": "Bloqueador NEUTROGENA Óleo Medio SPF 70+ Frasco 40g",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/26963693-184-184/20280806.jpg?v=638241409358100000",
+      "price": "47.90"
     },
     {
-      "name": "Polo de piqué para hombre Essentials",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/586674/53/fv/fnd/EEA/fmt/png",
-      "price": 124.93
+      "code": "21624109",
+      "name": "Serum NEUTROGENA Hydroboost Frasco 30ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/21624109-184-184/20325001.jpg?v=638040734596730000",
+      "price": "69.90"
     },
     {
-      "name": "Polo de golf para hombre PUMA x Palm Tree Crew",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/539201/01/fv/fnd/EEA/fmt/png",
-      "price": 342.55
+      "code": "2072158",
+      "name": "Agua Micelar NEUTRÓGENA HydroBoost Frasco 400ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/2072158-184-184/20236388.jpg?v=637617378272370000",
+      "price": "48"
     },
     {
-      "name": "Polo teamLIGA para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/658396/06/fv/fnd/EEA/fmt/png",
-      "price": 181.35
+      "code": "27428377",
+      "name": "Crema Facial NEUTROGENA Brightboost Frasco 50g",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/27428377-184-184/20256668.jpg?v=638284610404070000",
+      "price": "79.90"
     },
     {
-      "name": "Polo BMW M Motorsport para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/621312/03/fv/fnd/EEA/fmt/png",
-      "price": 201.5
+      "code": "1605113",
+      "name": "Cuidado facial NEUTROGENA Toallitas desmaquillantes night calming Paquete 25un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/1605113-184-184/20065733.jpg?v=637566185532770000",
+      "price": "24.50"
     },
     {
-      "name": "Polo BMW M Motorsport para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/621312/02/fv/fnd/EEA/fmt/png",
-      "price": 201.5
+      "code": "1605115",
+      "name": "Cuidado Facial NEUTROGENA Desmaquillante Oil Free Frasco 162ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/1605115-184-184/20048170.jpg?v=637566185711870000",
+      "price": "36.90"
     },
     {
-      "name": "Polo de golf para hombre Gamer",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/599120/01/fv/fnd/EEA/fmt/png",
-      "price": 261.95
+      "code": "27428365",
+      "name": "Limpiador Facial NEUTROGENA Grapefruit Frasco 177ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/27428365-184-184/20112571.jpg?v=638284609906730000",
+      "price": "43.90"
     },
     {
-      "name": "Polo de golf para hombre PUMA x Palm Tree Crew",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/539201/04/fv/fnd/EEA/fmt/png",
-      "price": 342.55
+      "code": "1605127",
+      "name": "Exfoliante NEUTROGENA Purified Skin Frasco 100g",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/1605127-184-184/20172278.jpg?v=637566186343500000",
+      "price": "34.50"
     },
     {
-      "name": "Polo de golf para hombre PUMA x Palm Tree Crew",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/539201/02/fv/fnd/EEA/fmt/png",
-      "price": 342.55
+      "code": "1704300",
+      "name": "Desmaquillante NEUTROGENA Agua Micelar Hydroboost Frasco 200ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/1704300-184-184/20207317.jpg?v=637575445529200000",
+      "price": "36.90"
     },
     {
-      "name": "Polo de golf de manga larga YouV para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/539106/03/fv/fnd/EEA/fmt/png",
-      "price": 302.25
+      "code": "27428368",
+      "name": "Gel de Limpieza Facial NEUTROGENA Purified Skin Tubo 150g",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/27428368-184-184/20172282.jpg?v=638284610029930000",
+      "price": "39.90"
     },
     {
-      "name": "Polo de golf Cloudspun Primary para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/538993/01/fv/fnd/EEA/fmt/png",
-      "price": 322.4
+      "code": "1605111",
+      "name": "Toallitas Desmaquillantes NEUTROGENA Ultra Soft Paquete 25un",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/1605111-184-184/986060.jpg?v=637566185481630000",
+      "price": "25.90"
     },
     {
-      "name": "Polo de golf Cloudspun Haystack para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/538709/01/fv/fnd/EEA/fmt/png",
-      "price": 282.1
+      "code": "1605136",
+      "name": "Crema Corporal NEUTROGENA Hydroboost Body Frasco 400ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/1605136-184-184/20191847.jpg?v=637566186603830000",
+      "price": "51.50"
     },
     {
-      "name": "Polo de golf MATTR Mirage para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/622137/01/fv/fnd/EEA/fmt/png",
-      "price": 302.25
+      "code": "25706940",
+      "name": "Crema Corporal NEUTROGENA Hydroboost Frasco 200ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/25706940-184-184/20238180.jpg?v=638121313561970000",
+      "price": "32.50"
     },
     {
-      "name": "Camisa de golf de botones PUMA x PALM TREE CREW para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/621659/01/fv/fnd/EEA/fmt/png",
-      "price": 342.55
+      "code": "26753150",
+      "name": "Exfoliante Facial NEUTROGENA Hydro Boost Ácido Hialurónico Frasco 141g",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/26753150-184-184/20356044.jpg?v=638225642915170000",
+      "price": "42.50"
     },
     {
-      "name": "Polo de golf CLOUDSPUN Aloha para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/621556/03/fv/fnd/EEA/fmt/png",
-      "price": 302.25
+      "code": "26753036",
+      "name": "Agua Micelar Desmaquillante 7 en 1 NEUTROGENA Purified Skin Frasco 400ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/26753036-184-184/20356048.jpg?v=638225642118630000",
+      "price": "48"
     },
     {
-      "name": "Polo de golf CLOUDSPUN Aloha para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/621556/02/fv/fnd/EEA/fmt/png",
-      "price": 302.25
+      "code": "27428376",
+      "name": "Crema Facial NEUTROGENA Brightboost FPS 30 Fasco 40g",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/27428376-184-184/20256669.jpg?v=638284610362170000",
+      "price": "79.90"
     },
     {
-      "name": "Polo Scuderia Ferrari para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/620945/01/fv/fnd/EEA/fmt/png",
-      "price": 261.95
+      "code": "1704278",
+      "name": "Exfoliante Facial NEUTROGENA Pink Grapefruit Frasco 124ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/1704278-184-184/20112572.jpg?v=637575445010230000",
+      "price": "43.90"
     },
     {
-      "name": "Polo de golf Mattr Track para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/538997/05/fv/fnd/EEA/fmt/png",
-      "price": 342.55
+      "code": "26752949",
+      "name": "Agua Micelar Desmaquillante Bifásica NEUTROGENA Hydro Boost Frasco 200ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/26752949-184-184/20356061.jpg?v=638225641755970000",
+      "price": "40.50"
     },
     {
-      "name": "Polo de golf Cloudspun Haystack para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/538709/08/fv/fnd/EEA/fmt/png",
-      "price": 282.1
+      "code": "1605129",
+      "name": "Agua Micelar NEUTROGENA Purified Skin Frasco 200ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/1605129-184-184/20172294.jpg?v=637566186382100000",
+      "price": "36.90"
     },
     {
-      "name": "Polo de golf para hombre PUMA x ARNOLD PALMER Mattr Sixty Two",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/537485/02/fv/fnd/EEA/fmt/png",
-      "price": 374.79
+      "code": "27428375",
+      "name": "Crema Corporal NEUTROGENA Body Care Intensive Hidrata y Repara Frasco 400ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/27428375-184-184/20238174.jpg?v=638284610322830000",
+      "price": "41.50"
     },
     {
-      "name": "Polo de golf para hombre PUMA x Arnold Palmer CLOUDSPUN Golf",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/537483/01/fv/fnd/EEA/fmt/png",
-      "price": 374.79
-    },
-    {
-      "name": "Polo de golf Mattr Florals para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/537456/02/fv/fnd/EEA/fmt/png",
-      "price": 322.4
-    },
-    {
-      "name": "Polo de golf en bloques de color Cloudspun para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/537448/01/fv/fnd/EEA/fmt/png",
-      "price": 322.4
-    },
-    {
-      "name": "Polo para hombre Classics Towelling",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/622478/65/fv/fnd/EEA/fmt/png",
-      "price": 181.35,
-      "discount": 161
-    },
-    {
-      "name": "Polo estampado PUMA x SPONGEBOB para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/538959/77/fv/fnd/EEA/fmt/png",
-      "price": 221.45
-    },
-    {
-      "name": "Polo estilo Scuderia Ferrari",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/620985/01/fv/fnd/EEA/fmt/png",
-      "price": 282.1,
-      "discount": 201.3
-    },
-    {
-      "name": "Polo estilo Scuderia Ferrari",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/620985/02/fv/fnd/EEA/fmt/png",
-      "price": 282.1,
-      "discount": 201.3
-    },
-    {
-      "name": "Polo de piqué para hombre Essentials",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/586674/06/fv/fnd/EEA/fmt/png",
-      "price": 145.08,
-      "discount": 100.55
-    },
-    {
-      "name": "Polo Scuderia Ferrari para hombre",
-      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/620945/02/fv/fnd/EEA/fmt/png",
-      "price": 261.95,
-      "discount": 181.15
+      "code": "27428373",
+      "name": "Crema Manos NEUTROGENA NWG Frasco 56ml",
+      "image": "https://plazavea.vteximg.com.br/arquivos/ids/27428373-184-184/20238185.jpg?v=638284610226430000",
+      "price": "31.50"
     }
   ]
 }

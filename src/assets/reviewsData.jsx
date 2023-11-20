@@ -2,12 +2,6 @@ import { reviews } from "./img/Images.jsx";
 
 const users = [
   {
-    author: "Nicolás Cicchini",
-    title: "¡Increíble variedad de productos!",
-    description: `Tienen de todo para cualquier deporte que te guste. La calidad es top y el envío también.`,
-    image: reviews.Nicolas,
-  },
-  {
     author: "Ariana Maita",
     title: "Atención al cliente de 10.",
     description: `Una vez tuve un problema con mi pedido, pero el equipo de atención al cliente lo solucionó al toque.`,
@@ -18,6 +12,12 @@ const users = [
     title: "Precios que dan gusto.",
     description: `Hay buenas ofertas y descuentos.`,
     image: reviews.Marcelo,
+  },
+  {
+    author: "Nicolás Cicchini",
+    title: "¡Increíble variedad de productos!",
+    description: `Tienen de todo para cualquier deporte que te guste. La calidad es top y el envío también.`,
+    image: reviews.Nicolas,
   },
   {
     author: "Fabio Valencia",

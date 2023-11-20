@@ -3,7 +3,7 @@ import { PiShoppingCartFill, PiShoppingCart } from "react-icons/pi";
 import "../css/header.css";
 import logo from "/logo.png";
 import { BiUser } from "react-icons/bi";
-import { useState } from "react";
+import { useCart } from "../hooks/useCarrito";
 
 const routes = [
   { name: "Inicio", route: "/" },
@@ -13,7 +13,9 @@ const routes = [
 
 function Header({ handleCarrito, setHandleCarrito }) {
   const account = JSON.parse(localStorage.getItem("account"));
-  const [user, setUser] = useState(account ? account.username : null);
+  const user = account?.username || null;
+
+  const cart = useCart();
   return (
     <header>
       <nav className="header_navbar">
@@ -44,6 +46,11 @@ function Header({ handleCarrito, setHandleCarrito }) {
         )}
       </div>
       <div className="carrito_container">
+        {!!cart.length && (
+          <div className="carrito-counter">
+            <span>{cart.length}</span>
+          </div>
+        )}
         <button
           className="carrito-btn"
           onClick={() => setHandleCarrito((prev) => !prev)}

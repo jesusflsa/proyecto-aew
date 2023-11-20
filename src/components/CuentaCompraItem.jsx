@@ -1,19 +1,20 @@
 import React from "react";
 
-function ListaItem() {
+function ListaItem({ product }) {
   return (
     <article className="purchase_item">
       <div className="item_data">
         <div className="data_img">
-          <img src="" alt="" />
+          <img src={product.image} alt="" />
         </div>
         <div className="data_specs">
           <div className="data_title">
-            <h5>{"itemName"}</h5>
-            <span>S/. {"itemPricePerUni"} x uni.</span>
+            <h5>{product.name}</h5>
+            <span>S/. {product.price.toFixed(2)} x uni.</span>
           </div>
           <p className="data_price">
-            Total: <span>S/. {"itemTotalPrice"}</span>
+            Total:
+            <span> S/. {(product.price * product.quantity).toFixed(2)}</span>
           </p>
         </div>
       </div>

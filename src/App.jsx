@@ -11,12 +11,13 @@ import Pagar from "./pages/Pagar";
 import Cuenta from "./pages/Cuenta";
 import Registro from "./pages/Registro";
 
-import CarritoProvider from "./hooks/useCarrito";
+import { CarritoProvider } from "./hooks/useCarrito";
 import IniciarSesion from "./pages/IniciarSesion";
+
+import ordenado from "./assets/ordenado.json";
 
 function App() {
   const [handleCarrito, setHandleCarrito] = useState(false);
-
   return (
     <BrowserRouter>
       <CarritoProvider>
@@ -28,6 +29,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/catalogo" element={<Catalogo />} />
+            <Route path="/catalogo/:id" element={<Catalogo />} />
             <Route path="/pagar" element={<Pagar />} />
             <Route path="/soporte" element={<Soporte />} />
             <Route path="/cuenta" element={<Cuenta />} />

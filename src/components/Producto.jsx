@@ -4,7 +4,7 @@ import { useProducto } from "../hooks/useProducto";
 
 function Producto({ product }) {
   const { producto, addToCart } = useProducto(product);
-  const { name, image, discount, price } = producto;
+  const { name, image, price } = producto;
 
   return (
     <div className="catalogo_item">
@@ -15,14 +15,7 @@ function Producto({ product }) {
         <div className="item_data">
           <h3 className="item_name">{name}</h3>
           <span className="item_price">
-            {discount ? (
-              <>
-                <p className="item_discount">S/.{discount}</p>
-                <del className="item_value">S/.{price}</del>
-              </>
-            ) : (
-              <p className="item_value">S/.{price}</p>
-            )}
+            <p className="item_value">S/.{price}</p>
           </span>
         </div>
         <button className="item_add" onClick={addToCart}>

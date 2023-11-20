@@ -76,26 +76,26 @@ input {
   padding: 8px;
   margin-right: 8px;
 }
-.item_data .item_data-top {
+#carrito .item_data .item_data-top {
   display: flex;
   width: 100%;
   align-items: center;
   padding-right: 20px;
 }
-.item_data .item_data-name {
+#carrito .item_data .item_data-name {
   flex: 1;
 }
-.item_data .item_data-name .name {
+#carrito .item_data .item_data-name .name {
   font-weight: bold;
 }
-.item_data .item_data-name .price {
+#carrito .item_data .item_data-name .price {
   color: rgba(16, 16, 16, 0.5);
 }
-.item_data .item_data-name .discount {
+#carrito .item_data .item_data-name .discount {
   color: rgba(16, 16, 16, 0.2);
   text-decoration: line-through;
 }
-.item_data .item_data-delete {
+#carrito .item_data .item_data-delete {
   display: grid;
   place-items: center;
   background: none;
@@ -107,31 +107,31 @@ input {
   top: 20px;
   right: 20px;
 }
-.item_data-delete:hover svg {
+#carrito .item_data-delete:hover svg {
   color: red;
 }
-.item_data-delete svg {
+#carrito .item_data-delete svg {
   width: 80%;
   height: 80%;
   transition: color 100ms ease-out;
 }
-.item_data .item_data-bottom {
+#carrito .item_data .item_data-bottom {
   display: flex;
   align-items: center;
   gap: 8px;
   width: 100%;
 }
-.item_data-bottom .item_total {
+#carrito .item_data-bottom .item_total {
   margin-left: auto;
   font-weight: bold;
 }
-.item_data-quantity {
+#carrito .item_data-quantity {
   display: flex;
   align-items: center;
   gap: 4px;
 }
-.item_data-quantity input,
-.item_data-quantity button {
+#carrito .item_data-quantity input,
+#carrito .item_data-quantity button {
   text-align: center;
   display: grid;
   place-items: center;
@@ -139,21 +139,21 @@ input {
   height: 25px;
   padding: 4px;
 }
-.item_data-quantity input {
+#carrito .item_data-quantity input {
   width: 30px;
   margin: 0 10px;
 }
-.item_data-quantity button svg {
+#carrito .item_data-quantity button svg {
   width: 100%;
   height: 100%;
 }
-.item_data-quantity button {
+#carrito .item_data-quantity button {
   border: none;
   outline: none;
   border-radius: 50%;
   box-shadow: 0 0 3px 0px rgba(0, 0, 0, 1);
 }
-.carrito_bottom .carrito_bottom-btn {
+#carrito .carrito_bottom .carrito_bottom-btn {
   position: absolute;
   display: block;
   text-align: center;

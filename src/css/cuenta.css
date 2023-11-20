@@ -64,25 +64,24 @@
   display: flex;
   flex-direction: column;
   width: 55vw;
-  height: 100vh;
   padding: 24px;
   gap: 16px;
   border: solid 1px red;
 }
-.purchase_list {
+.purchases_container .purchase_list {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   border: solid 1px red;
   padding: 8px;
 }
-.purchase_list_date {
+.purchases_container .purchase_list_date {
   display: flex;
   justify-content: space-between;
   border: solid 1px red;
   width: 100%;
 }
-.purchase_item {
+.purchases_container .purchase_item {
   border: solid 1px red;
   display: flex;
   flex-direction: column;
@@ -91,36 +90,47 @@
   gap: 8px;
 }
 
-.item_data {
+.purchases_container .item_data {
   display: flex;
 }
-.data_specs {
+.purchases_container .purchase_item .data_img {
+}
+.purchases_container .purchase_item .data_img img {
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+  object-position: bottom;
+}
+.purchases_container .data_specs {
   width: 100%;
 }
-.data_title {
+.purchases_container .data_title {
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 8px;
 }
-.data_title h5,
-.data_title span,
-.data_price {
+.purchases_container .data_title h5,
+.purchases_container .data_title span,
+.purchases_container .data_price {
   font-weight: bold;
   font-size: 0.9em;
 }
-.data_price span {
+.purchases_container .data_price {
+  text-align: end;
+}
+.purchases_container .data_price span {
   font-weight: normal;
 }
-.purchase_item_total {
+.purchases_container .purchase_item_total {
   border: solid 1px red;
   display: flex;
   justify-content: right;
   width: 100%;
 }
-.purchase_item_total p {
+.purchases_container .purchase_item_total p {
   font-weight: bold;
 }
-.purchase_item_total span {
+.purchases_container .purchase_item_total span {
   font-weight: normal;
 }

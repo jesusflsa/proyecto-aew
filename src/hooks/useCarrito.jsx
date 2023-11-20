@@ -6,6 +6,7 @@ const cartContext = createContext();
 const addToCartContext = createContext();
 const updateQuantityContext = createContext();
 const removeFromCartContext = createContext();
+const cleanCartContext = createContext();
 
 export function useCart() {
   return useContext(cartContext);
@@ -19,12 +20,14 @@ export function useUpdateQuantity() {
 export function useRemoveFromCart() {
   return useContext(removeFromCartContext);
 }
-
-export default function CarritoProvider({ children }) {
+export function useCleanCart() {
+  return useContext(cleanCartContext);
+}
+export function CarritoProvider({ children }) {
   const [cart, setCart] = useState([]);
   useEffect(() => {
-    const data = JSON.parse(localStorage.getItem("products"));
-    data && setCart(data);
+    const data = localStorage.getItem("products");
+    data && setCart(JSON.parse(data));
   }, []);
 
   useEffect(() => {
@@ -48,12 +51,17 @@ export default function CarritoProvider({ children }) {
     setCart(newCart);
   }
 
+  function cleanCart() {
+    setCart([]);
+  }
   return (
     <cartContext.Provider value={cart}>
       <addToCartContext.Provider value={addToCart}>
         <updateQuantityContext.Provider value={updateQuantity}>
           <removeFromCartContext.Provider value={removeFromCart}>
-            {children}
+            <cleanCartContext.Provider value={cleanCart}>
+              {children}
+            </cleanCartContext.Provider>
           </removeFromCartContext.Provider>
         </updateQuantityContext.Provider>
       </addToCartContext.Provider>

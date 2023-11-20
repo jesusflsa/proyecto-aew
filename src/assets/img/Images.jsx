@@ -3,12 +3,6 @@ import carrouselDos from "./carrousel/2.jpg";
 import carrouselTres from "./carrousel/3.jpg";
 import carrouselCuatro from "./carrousel/4.jpg";
 
-import adidas from "./sponsors/adidas.jpg";
-import nike from "./sponsors/nike.jpg";
-import puma from "./sponsors/puma.png";
-import umbro from "./sponsors/umbro.png";
-import lotto from "./sponsors/lotto.jpg";
-
 import Nicolas from "./reviews/testimonio1.jpg";
 import Ariana from "./reviews/testimonio2.jpg";
 import Marcelo from "./reviews/testimonio3.jpg";
@@ -34,14 +28,6 @@ export const carrousel = [
   carrouselTres,
   carrouselCuatro,
 ];
-
-export const sponsorsImg = {
-  adidas: adidas,
-  nike: nike,
-  puma: puma,
-  umbro: umbro,
-  lotto: lotto,
-};
 
 export const reviews = {
   Nicolas: Nicolas,

@@ -1,12 +1,12 @@
 import "../css/inicio.css";
 import Carrousel from "../components/Carrousel";
 import Reviews from "../components/Reviews";
-import Sponsors from "../components/Sponsors";
+import Colection from '../components/Colection'
 const Inicio = () => {
   return (
     <>
       <Carrousel />
-      <Sponsors />
+      <Colection />
       <Reviews />
     </>
   );
