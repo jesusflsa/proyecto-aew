@@ -9,8 +9,8 @@ function ListaItem({ product }) {
         </div>
         <div className="data_specs">
           <div className="data_title">
-            <h5>{product.name}</h5>
-            <span>S/. {product.price.toFixed(2)} x uni.</span>
+            <h5>{product.name + " (" + product.quantity + ")"}</h5>
+            <span>S/. {product.price.toFixed(2)}</span>
           </div>
           <p className="data_price">
             Total:

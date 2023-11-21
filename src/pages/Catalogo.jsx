@@ -1,44 +1,56 @@
 import Producto from "../components/Producto";
-import products from "../assets/catalogo.json";
+import products from "../assets/ordenado.json";
 
 import "../css/catalogo.css";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 function Catalogo() {
   const { id } = useParams();
 
+  useEffect(() => {
+    !!id ? getItems() : getAllItems();
+  }, [id]);
+
+  const [productList, setProductList] = useState([]);
+
   function getItems() {
-    return products[id];
+    setProductList(products[id]);
   }
+
   function getAllItems() {
     let arr = [];
-    Object.entries(products).forEach((prod) => {
-      const prods = prod[1];
-      arr = arr.concat(prods);
+    Object.values(products).forEach((prod) => {
+      arr = arr.concat(prod);
     });
 
-    let currentIndex = arr.length,
-      randomIndex;
-
-    while (currentIndex > 0) {
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-
-      [arr[currentIndex], arr[randomIndex]] = [
-        arr[randomIndex],
-        arr[currentIndex],
-      ];
-    }
-    return arr;
+    setProductList(arr);
   }
-  const data = !!id ? getItems() : getAllItems();
+
   return (
     <section id="contenido">
-      <div id="catalogoContenedor">
-        {data ? (
-          data.map((dat) => <Producto product={dat} />)
+      <div className="filters">
+        {!id ? (
+          Object.keys(products).map((k) => (
+            <NavLink to={"/catalogo/" + k}>{k.toUpperCase()}</NavLink>
+          ))
         ) : (
-          <p>No hay productos</p>
+          <NavLink to={"/catalogo"}>Volver</NavLink>
+        )}
+      </div>
+      <div id="catalogoContenedor">
+        {!!productList ? (
+          productList.map((prod) => <Producto key={prod.code} product={prod} />)
+        ) : (
+          <p
+            style={{
+              textAlign: "center",
+              fontStyle: "italic",
+              gridColumn: "autofill / 1",
+            }}
+          >
+            No hay productos existentes
+          </p>
         )}
       </div>
     </section>

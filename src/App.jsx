@@ -14,7 +14,6 @@ import Registro from "./pages/Registro";
 import { CarritoProvider } from "./hooks/useCarrito";
 import IniciarSesion from "./pages/IniciarSesion";
 
-import ordenado from "./assets/ordenado.json";
 
 function App() {
   const [handleCarrito, setHandleCarrito] = useState(false);

@@ -12,9 +12,11 @@ function ListaCompra({ purchase, index }) {
         <h4>Compra Nro {index}</h4>
         <p>Fecha de compra: {date.toLocaleDateString("es-ES")}</p>
       </div>
-      {purchase.products.map((product) => (
-        <ListaItem product={product} />
-      ))}
+      <div className="purchase_items">
+        {purchase.products.map((product) => (
+          <ListaItem product={product} />
+        ))}
+      </div>
       <div className="purchase_item_total">
         <p>
           Total: <span>S/. {total.toFixed(2)}</span>

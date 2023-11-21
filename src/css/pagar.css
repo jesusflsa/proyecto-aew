@@ -52,17 +52,20 @@
   display: flex;
   justify-content: space-between;
 }
-.orden-summary button {
+.orden-summary .summary-checkout {
   margin-top: 12px;
   background-color: #ffffff;
   padding: 12px;
   font-weight: bolder;
+  text-align: center;
+  border: 1px solid black;
+  outline: 1px solid black;
 }
-.orden-summary button:hover {
+.orden-summary .summary-checkout:hover {
   background-color: #000000;
   color: #ffffff;
 }
-.orden-summary button:disabled {
+.orden-summary .summary-checkout:disabled {
   background-color: #474747;
   color: #a9a9a9;
   border: 1px solid var(--primary-color);

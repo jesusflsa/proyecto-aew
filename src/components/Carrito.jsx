@@ -40,7 +40,6 @@ function Carrito({ setHandleCarrito, handleCarrito }) {
         })}
       </div>
       <div className="carrito_bottom">
-        <p>Valor total: {totalPagar.toFixed(2)}</p>
         <NavLink
           to="/pagar"
           onClick={() => setHandleCarrito(false)}

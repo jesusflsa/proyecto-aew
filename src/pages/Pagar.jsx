@@ -3,12 +3,11 @@ import { useCart, useCleanCart } from "../hooks/useCarrito";
 
 import "../css/pagar.css";
 import CheckoutTable from "../components/CheckoutTable";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 function Pagar() {
   const carrito = useCart();
   const cleanCart = useCleanCart();
   const [handlePurchase, setHandlePurchase] = useState([]);
-
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -35,11 +34,35 @@ function Pagar() {
       ? carrito.map((p) => p.price * p.quantity).reduce((a, b) => a + b)
       : 0;
 
+  function Button() {
+    const user = localStorage.getItem("account");
+    if (!user) {
+      return (
+        <NavLink className="summary-checkout" to="/registrate">
+          Regístrate
+        </NavLink>
+      );
+    }
+    if (carrito.length !== 0) {
+      return (
+        <button className="summary-checkout" onClick={completePurchase}>
+          Pagar
+        </button>
+      );
+    }
+    if (carrito.length === 0) {
+      return (
+        <button className="summary-checkout" disabled>
+          Pagar
+        </button>
+      );
+    }
+  }
   return (
     <>
       <section className="cart-content">
         <article>
-          <h3>Shopping Cart</h3>
+          <h3>Carrito de Compras</h3>
           <hr />
           {carrito.length ? (
             <CheckoutTable />
@@ -51,23 +74,23 @@ function Pagar() {
                 textAlign: "center",
               }}
             >
-              Empty cart
+              Carrito Vacio.
             </p>
           )}
         </article>
         <article>
-          <h3>Orden Summary</h3>
+          <h3>Resumen de Compra</h3>
           <div className="orden-summary">
             <div className="summary-detail">
               <p>SUBTOTAL</p>
               <span>${pricetotal.toFixed(2)}</span>
             </div>
             <div className="summary-detail">
-              <p>SHIPPING</p>
+              <p>ENVÍO</p>
               <span>$0.00</span>
             </div>
             <div className="summary-detail">
-              <p>ESTIMATED TAX</p>
+              <p>IMPUESTO ESTIMADO</p>
               <span>${(pricetotal * 0.06).toFixed(2)}</span>
             </div>
             <hr />
@@ -75,15 +98,7 @@ function Pagar() {
               <span>TOTAL</span>
               <span>${(pricetotal * 1.06).toFixed(2)}</span>
             </div>
-            {carrito.length != 0 ? (
-              <button className="summary-checkout" onClick={completePurchase}>
-                Pagar
-              </button>
-            ) : (
-              <button className="summary-checkout" disabled>
-                Pagar
-              </button>
-            )}
+            {<Button />}
           </div>
         </article>
       </section>

@@ -69,6 +69,7 @@ function UserInfo() {
   }
   return (
     <article className="account_container">
+      <h3>Cuenta</h3>
       <div className="account_info">
         <div className="account_photo">
           <img

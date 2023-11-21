@@ -1,14 +1,16 @@
 .unknown_container {
   display: flex;
   justify-content: space-around;
+  flex: 1;
+  background-color: #b1edd4;
 }
 .account_container {
   display: flex;
   flex-direction: column;
   justify-content: left;
   width: 40vw;
-  border: 1px solid red;
-  padding: 12px;
+  padding: 24px;
+  gap: 16px;
   height: fit-content;
 }
 .account_info {
@@ -66,34 +68,34 @@
   width: 55vw;
   padding: 24px;
   gap: 16px;
-  border: solid 1px red;
 }
 .purchases_container .purchase_list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 8px;
-  border: solid 1px red;
   padding: 8px;
 }
 .purchases_container .purchase_list_date {
   display: flex;
   justify-content: space-between;
-  border: solid 1px red;
   width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000000;
 }
-.purchases_container .purchase_item {
-  border: solid 1px red;
-  display: flex;
-  flex-direction: column;
-  width: calc(50% - 4px);
-  padding: 8px;
+.purchases_container .purchase_items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   gap: 8px;
 }
-
+.purchases_container .purchase_item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #eaeeef;
+  border: 1px solid #000000;
+}
 .purchases_container .item_data {
   display: flex;
-}
-.purchases_container .purchase_item .data_img {
 }
 .purchases_container .purchase_item .data_img img {
   height: 160px;
@@ -102,12 +104,14 @@
   object-position: bottom;
 }
 .purchases_container .data_specs {
+  padding: 8px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .purchases_container .data_title {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 8px;
 }
 .purchases_container .data_title h5,
@@ -123,7 +127,8 @@
   font-weight: normal;
 }
 .purchases_container .purchase_item_total {
-  border: solid 1px red;
+  padding-top: 8px;
+  border-top: solid 1px #000000;
   display: flex;
   justify-content: right;
   width: 100%;

@@ -5,10 +5,9 @@ import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi2";
 const Carrousel = () => {
   useEffect(() => {
     const carrusel = document.getElementById("carrousel-wrapper");
-    const lastImg = carrusel.lastChild;
-    carrusel.insertAdjacentElement("afterbegin", lastImg);
+    carrusel.insertAdjacentElement("afterbegin", carrusel.lastChild);
   }, []);
-  
+
   const moveCarrouselLeft = () => {
     const carrusel = document.getElementById("carrousel-wrapper");
     const lastImg = carrusel.lastChild;
