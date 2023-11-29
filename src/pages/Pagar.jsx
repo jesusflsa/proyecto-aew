@@ -26,7 +26,7 @@ function Pagar() {
     };
     cleanCart();
     setHandlePurchase([...handlePurchase, purchase]);
-    setTimeout(() => navigate("/catalogo"), 500);
+    setTimeout(() => navigate("/cuenta"), 500);
   };
 
   const pricetotal =
